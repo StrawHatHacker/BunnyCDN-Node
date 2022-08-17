@@ -1,10 +1,5 @@
-import test from './test';
+import BunnyCDN from "./instance";
 
-interface IUser {
-    name: string;
-}
-
-export default (u: IUser) => {
-    console.log('Hello');
-    test
+export {
+    BunnyCDN
 }
